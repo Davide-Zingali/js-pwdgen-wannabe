@@ -1,0 +1,29 @@
+/* regole generali */
+* {
+  font-family: sans-serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* contenitore sfondo */
+.sfondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/sfondo-minimal.jpg);
+  background-size: cover;
+}
+/* caratteristiche di testo */
+#risultato {
+  background-color: rgba(255, 255, 255, 1.0);
+  text-shadow: 3px 3px blue;
+  padding: 100px;
+  font-size: 50px;
+  color: greenyellow;
+  margin: 0 20%;
+  text-align: center;
+  box-shadow: 8px 8px 15px black;
+}
