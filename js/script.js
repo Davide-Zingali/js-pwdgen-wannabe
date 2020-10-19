@@ -12,4 +12,4 @@ var richiestaColore = "Il tuo colore preferito?";
 var coloreUtente = prompt(richiestaColore);
 console.log(coloreUtente);
 
-document.getElementById('risultato').innerHTML=nomeUtente + cognomeUtente + coloreUtente + "19";
+document.getElementById('risultato').innerHTML="Ti chiami: " + nomeUtente + " " + cognomeUtente + " " + "ed il tuo colore preferito è: " + coloreUtente + "19";
